@@ -4,7 +4,7 @@
  * @Email:  mathew0057@gmail.com
  * @Filename: Main.css
  * @Last modified by:   Mathew
- * @Last modified time: 2017-07-06T20:19:09-05:00
+ * @Last modified time: 2017-07-06T20:25:13-05:00
  */
 
  * {
@@ -110,7 +110,6 @@ img {
 }
 
 .content-section {
-  margin-bottom: 25px;
   padding-top: 90px;
   padding-bottom: 110px;
   width: 100%;
