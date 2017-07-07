@@ -4,7 +4,7 @@
  * @Email:  mathew0057@gmail.com
  * @Filename: Main.css
  * @Last modified by:   Mathew
- * @Last modified time: 2017-07-06T19:10:54-05:00
+ * @Last modified time: 2017-07-06T20:19:09-05:00
  */
 
  * {
@@ -32,6 +32,29 @@ body {
 
 code {
   font-family: 'Share Tech Mono', monospace;
+}
+
+a {
+  background-color: transparent;
+}
+
+img {
+    border: 0;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.logo {
+  position: fixed;
+  left: 40px;
+  top: 40px;
+  z-index: 9999;
+  -webkit-transition: -webkit-transform .2s ease;
+  transition: -webkit-transform .2s ease;
+  transition: transform .2s ease;
+  transition: transform .2s ease,-webkit-transform .2s ease;
+  max-width: 10%;
+  display: inline-block;
 }
 
 .container::after,
