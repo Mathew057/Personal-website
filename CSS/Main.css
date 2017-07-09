@@ -4,7 +4,7 @@
  * @Email:  mathew0057@gmail.com
  * @Filename: Main.css
  * @Last modified by:   Mathew
- * @Last modified time: 2017-07-06T20:50:53-05:00
+ * @Last modified time: 2017-07-09T18:09:20-05:00
  */
 
  @keyframes colorfade {
@@ -118,7 +118,10 @@ img {
   transition: padding .2s ease, transform 200ms;
   color: #000;
   text-decoration: none;
-  transform: translateX(0px) translateY(0px) translateZ(0px);
+}
+
+.menulink:hover {
+  padding-top: 25px;
 }
 
 .content-section {
@@ -200,6 +203,10 @@ label {
   font-family: Roboto,sans-serif;
 }
 
+.submit-button:hover {
+  background-color: blue;
+}
+
 .link-container {
   display: block;
   padding-top: 15px;
@@ -226,6 +233,10 @@ label {
   line-height: 25px;
   font-weight: 400;
   text-decoration: none;
+}
+
+.tag:hover {
+  padding-left: 20px;
   animation-name: colorfade;
   animation-duration: 250ms;
   animation-iteration-count: infinite;
