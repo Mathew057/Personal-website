@@ -4,7 +4,7 @@
  * @Email:  mathew0057@gmail.com
  * @Filename: Main.css
  * @Last modified by:   Mathew
- * @Last modified time: 2017-07-09T20:01:55-05:00
+ * @Last modified time: 2017-07-09T20:18:54-05:00
  */
 
  @keyframes colorfade {
@@ -82,6 +82,7 @@ img {
 .row {
   margin-left: 0;
   margin-right: 0;
+  padding-top: 20;
 }
 
 .column {
@@ -91,9 +92,6 @@ img {
   min-height: 1px;
   padding-left: 10px;
   padding-right: 10px;
-  animation-name: colorfade;
-  animation-duration: 250ms;
-  animation-iteration-count: infinite;
 }
 
 .navbar {
@@ -119,7 +117,6 @@ img {
   color: #000;
   text-decoration: none;
   transition: padding 0.2s ease 0s, transform 200ms;
-  transform: translateX(0px) translateY(0px) translateZ(0px);
 }
 
 .menulink:hover {
@@ -252,4 +249,10 @@ label {
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
+}
+
+.center-header {
+  text-align:center;
+  font-family: 'Droid serif', serif;
+  font-style: italic;
 }
