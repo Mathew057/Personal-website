@@ -4,7 +4,7 @@
  * @Email:  mathew0057@gmail.com
  * @Filename: Main.css
  * @Last modified by:   Mathew
- * @Last modified time: 2017-07-09T20:18:54-05:00
+ * @Last modified time: 2017-07-09T20:29:44-05:00
  */
 
  @keyframes colorfade {
@@ -14,6 +14,35 @@
      60%  {color: green;}
      80%  {color: blue;}
      100%  {color: purple;}
+ }
+
+ /*** Works on common browsers ***/
+ ::selection {
+     background-color: #4fd96d;
+     color: #fff;
+ }
+
+ /*** Mozilla based browsers ***/
+ ::-moz-selection {
+     background-color: #4fd96d;
+     color: #fff;
+ }
+
+ /***For Other Browsers ***/
+ ::-o-selection {
+     background-color: #4fd96d;
+     color: #fff;
+ }
+
+ ::-ms-selection {
+     background-color: #4fd96d;
+     color: #fff;
+ }
+
+ /*** For Webkit ***/
+ ::-webkit-selection {
+     background-color: #4fd96d;
+     color: #fff;
  }
 
  * {
