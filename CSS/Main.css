@@ -4,7 +4,7 @@
  * @Email:  mathew0057@gmail.com
  * @Filename: Main.css
  * @Last modified by:   Mathew
- * @Last modified time: 2017-07-09T18:09:20-05:00
+ * @Last modified time: 2017-07-09T20:01:55-05:00
  */
 
  @keyframes colorfade {
@@ -118,6 +118,8 @@ img {
   transition: padding .2s ease, transform 200ms;
   color: #000;
   text-decoration: none;
+  transition: padding 0.2s ease 0s, transform 200ms;
+  transform: translateX(0px) translateY(0px) translateZ(0px);
 }
 
 .menulink:hover {
@@ -128,13 +130,13 @@ img {
   padding-top: 90px;
   padding-bottom: 110px;
   width: 100%;
-  background-color: #f9f9f9;
+  background-color: #ffffff;
 }
 
 .content-footer {
-  padding-top: 170px;
+  padding-top: 70px;
   padding-bottom: 70px;
-  background-color: #f7f7f7;
+  background-color: #f9f9f9;
 }
 
 .container {
@@ -240,6 +242,7 @@ label {
   animation-name: colorfade;
   animation-duration: 250ms;
   animation-iteration-count: infinite;
+  border-bottom-color: blue;
 }
 
 .subheading {
